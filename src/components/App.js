@@ -47,7 +47,7 @@ function App() {
       setisloggedin(true);
       console.log("correct credentialas");
     } else {
-      setisloggedin(true);
+      setisloggedin(false);
       console.log("Incorrect credentialas");
     }
   }
