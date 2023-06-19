@@ -72,9 +72,7 @@ function App() {
 
       <div className="ExpenseModule">
         {valuedatabase
-          .filter(
-            (items) => items.date.getFullYear().toString() === EfilterYear
-          )
+          .filter((items) => items.date.getFullYear().toString() == EfilterYear)
           .map((items) => (
             <ExpenseItems
               key={items.id}

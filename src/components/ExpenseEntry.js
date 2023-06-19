@@ -30,7 +30,7 @@ function ExpenseEntry(props) {
   function dateHandler(event) {
     setenteredValues((prevState) => ({
       ...prevState,
-      date: event.target.value,
+      date: new Date(event.target.value),
     }));
   }
   return (
@@ -43,7 +43,7 @@ function ExpenseEntry(props) {
         <input type="number" min="0" onChange={amountHandler}></input>
 
         <label>Chose Date</label>
-        <input type="Date" onChsnge={dateHandler}></input>
+        <input type="Date" onChange={dateHandler}></input>
         <div className="formbutton">
           <button>Cancel</button>
           <button
