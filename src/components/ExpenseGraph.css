@@ -1,0 +1,8 @@
+.Expense-Graph {
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(232, 184, 135, 0.824);
+}

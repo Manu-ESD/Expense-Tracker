@@ -1,0 +1,44 @@
+.Expense-Items {
+  width: 80%;
+  height: 100px;
+  background-color: #02224bd1;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border: 2px solid black;
+}
+
+.Date {
+  width: 100px;
+  height: 80%;
+  background-color: #84a7a1ca;
+  margin-left: -35px;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Date p {
+  margin: 0;
+}
+
+.Discription {
+  margin-left: -150px;
+  margin-right: 150px;
+}
+
+.Amount {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Month {
+  font-size: 18px;
+  font-weight: 600;
+}

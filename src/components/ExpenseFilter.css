@@ -1,0 +1,25 @@
+.Expense-Filter {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(248, 245, 242, 0.824);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../public/blue-abstract.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  object-fit: cover;
+}
+
+.form-select {
+  width: 10%;
+}
+
+.Expense-Filter p {
+  margin-bottom: 0;
+  margin-right: 20px;
+  color: aliceblue;
+}
